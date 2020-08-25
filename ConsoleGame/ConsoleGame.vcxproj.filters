@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\interface classes">
+      <UniqueIdentifier>{b517ef57-5b5f-4b7e-9713-1e8ac3a97188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\interface classes\resource">
+      <UniqueIdentifier>{1f46ce10-09d1-4b31-b7f6-cfc05309225f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\interface classes\cpp files">
+      <UniqueIdentifier>{866be973-9c0f-43d3-b413-1b9f484284eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Game">
+      <UniqueIdentifier>{5ac7339c-c7ab-4669-ae71-54a42b25eeec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="basic.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TConsole.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Файлы ресурсов\interface classes\cpp files</Filter>
+    </ClCompile>
+    <ClCompile Include="MH_Points.cpp">
+      <Filter>Файлы ресурсов\interface classes\cpp files</Filter>
+    </ClCompile>
+    <ClCompile Include="Output_Console.cpp">
+      <Filter>Файлы ресурсов\interface classes\cpp files</Filter>
+    </ClCompile>
+    <ClCompile Include="STATS.cpp">
+      <Filter>Файлы ресурсов\interface classes\cpp files</Filter>
+    </ClCompile>
+    <ClCompile Include="Equip.cpp">
+      <Filter>Файлы ресурсов\interface classes\cpp files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы ресурсов\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGUI.cpp">
+      <Filter>Файлы ресурсов\interface classes\cpp files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TConsole.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resources.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Файлы ресурсов\interface classes\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MH_Points.h">
+      <Filter>Файлы ресурсов\interface classes\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Output_Console.h">
+      <Filter>Файлы ресурсов\interface classes\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="STATS.h">
+      <Filter>Файлы ресурсов\interface classes\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Equip.h">
+      <Filter>Файлы ресурсов\interface classes\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGUI.h">
+      <Filter>Файлы ресурсов\interface classes\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы ресурсов\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
